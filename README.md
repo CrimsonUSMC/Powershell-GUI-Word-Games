@@ -31,9 +31,9 @@ A suite of word games for kids created by PowerShell in a gui
 	$speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
 	$speak.GetInstalledVoices().voiceinfo
 
-	## This will list all installed voices that you can use.
+	##This will list all installed voices that you can use.
 	##To select just the name, run the following
-  ##These are the names that you will need to use.
+  	##These are the names that you will need to use.
   
 	$speak.GetInstalledVoices().voiceinfo.name
 
@@ -43,9 +43,12 @@ A suite of word games for kids created by PowerShell in a gui
 
 	##Replace "Microsoft Hazel Desktop" with a name that you have on your machine.
 	##To download more voices follow the link below:
-		https://www.microsoft.com/en-us/download/details.aspx?id=27224
+		
+	https://www.microsoft.com/en-us/download/details.aspx?id=27224
 
-		##There are many articles out there will walk you through installing and using them	
-	## Save the script and let your kids learn
+	##There are many articles out there will walk you through installing and using them	
+	
 
 ##The SpellingBee game will populate a .txt file with words that you child got right in the SpellingBee folder label with the date + "SpellingBee"
+
+## Save the script and let your kids learn
